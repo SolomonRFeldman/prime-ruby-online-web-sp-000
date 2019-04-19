@@ -1,11 +1,9 @@
 def prime?(num)
-  if num < 3
-    if num == -1 || 0 || 1
-      return false
-    end
-    if num == 2
-      return true
-    end
+  if num == -1 || 0 || 1
+    return false
+  end
+  if num == 2
+    return true
   end
   i = 2
   while i < num / 2
