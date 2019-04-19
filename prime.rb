@@ -9,6 +9,7 @@ def prime?(num)
   while i <= num / 2
     puts "wadup #{num}"
     if (i % num) == 0
+      puts "false boi"
       return false
     end
     i += 1
