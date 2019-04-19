@@ -12,4 +12,4 @@ def prime?(num)
   true
 end
 
-puts 16 ** .5
+puts 16 ** 0.5
