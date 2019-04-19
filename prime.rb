@@ -1,4 +1,5 @@
 def prime?(num)
+  
   i = 2
   while i < num / 2
     if i % num == 0
