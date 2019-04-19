@@ -7,7 +7,7 @@ def prime?(num)
   end
   i = 2
   while i <= num / 2
-    puts "wadup"
+    puts "wadup #{num}"
     if (i % num) == 0
       return false
     end
