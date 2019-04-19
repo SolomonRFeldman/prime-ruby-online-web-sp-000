@@ -11,3 +11,5 @@ def prime?(num)
   end
   true
 end
+
+print 16 ** (1/2)
